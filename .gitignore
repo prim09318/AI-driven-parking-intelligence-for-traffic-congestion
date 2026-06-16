@@ -1,0 +1,39 @@
+# ── Environment ───────────────────────────────────────────────────────────
+.env
+*.env
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ── Data (do NOT commit raw data — too large) ─────────────────────────────
+data/raw/
+data/processed/*.parquet
+data/processed/*.csv
+*.parquet
+*.csv
+
+# ── Model artifacts ───────────────────────────────────────────────────────
+models/*.pkl
+models/*.joblib
+models/*.json
+
+# ── Notebook outputs ──────────────────────────────────────────────────────
+*.html
+eda_*.png
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────────────
+logs/
+*.log

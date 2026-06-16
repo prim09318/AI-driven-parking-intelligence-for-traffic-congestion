@@ -1,0 +1,43 @@
+# ── Core Data Science ─────────────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+pyarrow==16.1.0          # parquet read/write
+
+# ── Geospatial ────────────────────────────────────────────────────────────
+geopandas==0.14.4
+h3==3.7.7                 # Uber hexagonal binning
+folium==0.16.0            # interactive maps
+branca==0.7.2             # folium dependency
+
+# ── Machine Learning ──────────────────────────────────────────────────────
+scikit-learn==1.5.0
+xgboost==2.0.3
+shap==0.45.1              # model explainability
+
+# ── Time Series ───────────────────────────────────────────────────────────
+prophet==1.1.5            # temporal forecasting per zone
+
+# ── Visualisation ─────────────────────────────────────────────────────────
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+
+# ── Dashboard ─────────────────────────────────────────────────────────────
+streamlit==1.35.0
+streamlit-folium==0.20.0  # embed folium maps in streamlit
+
+# ── GenAI / LLM ───────────────────────────────────────────────────────────
+google-generativeai==0.7.2
+langchain==0.2.5
+langchain-google-genai==1.0.6
+
+# ── Progress & Utilities ──────────────────────────────────────────────────
+tqdm==4.66.4
+python-dotenv==1.0.1
+pydantic==2.7.3
+requests==2.32.3
+
+# ── Notebook ──────────────────────────────────────────────────────────────
+ipykernel==6.29.4
+nbformat==5.10.4
+jupyter==1.0.0

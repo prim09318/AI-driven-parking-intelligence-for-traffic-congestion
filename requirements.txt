@@ -1,21 +1,21 @@
 # ── Core Data Science ─────────────────────────────────────────────────────
 pandas==2.2.2
 numpy==1.26.4
-pyarrow==16.1.0          # parquet read/write
+pyarrow==16.1.0
 
 # ── Geospatial ────────────────────────────────────────────────────────────
 geopandas==0.14.4
-h3==3.7.7                 # Uber hexagonal binning
-folium==0.16.0            # interactive maps
-branca==0.7.2             # folium dependency
+h3==3.7.7
+folium==0.16.0
+branca==0.7.2
 
 # ── Machine Learning ──────────────────────────────────────────────────────
 scikit-learn==1.5.0
 xgboost==2.0.3
-shap==0.45.1              # model explainability
+shap==0.45.1
 
 # ── Time Series ───────────────────────────────────────────────────────────
-prophet==1.1.5            # temporal forecasting per zone
+prophet==1.1.5
 
 # ── Visualisation ─────────────────────────────────────────────────────────
 matplotlib==3.9.0
@@ -24,12 +24,12 @@ plotly==5.22.0
 
 # ── Dashboard ─────────────────────────────────────────────────────────────
 streamlit==1.35.0
-streamlit-folium==0.20.0  # embed folium maps in streamlit
+streamlit-folium==0.20.0
 
 # ── GenAI / LLM ───────────────────────────────────────────────────────────
-google-generativeai==0.7.2
-langchain==0.2.5
-langchain-google-genai==1.0.6
+google-generativeai==0.8.3
+langchain==0.2.16
+langchain-google-genai==1.0.10
 
 # ── Progress & Utilities ──────────────────────────────────────────────────
 tqdm==4.66.4
